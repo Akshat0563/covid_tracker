@@ -24,11 +24,11 @@ class Dashboard extends React.Component {
     return (
       <>
         <NavBar></NavBar>
-        <div className={styles.container}>  
+        {/* <div className={styles.container}>  
           <Cards data={data} />
           <CountryPicker handleCountryChange={this.handleCountryChange} />
           <Chart data={data} country={country}/>
-        </div>
+        </div> */}
       </>
     );
   }

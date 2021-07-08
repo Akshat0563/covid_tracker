@@ -32,6 +32,7 @@ const NavBar = () => {
                     <ul></ul>
                     <ul class="navList">
                         <li class="navItem"><a href="./SignUp">SIGNUP</a></li>
+                        {/* <li className="divider"></li> */}
                         <li class="navItem"><a href="./SignIn">SIGNIN</a></li>
                     </ul>
                 </div>
